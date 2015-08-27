@@ -1,0 +1,15 @@
+#modal-content {display:none; font-family: arial;}
+#simplemodal-overlay {background-color:#000; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+#simplemodal-container {height:500px; width:500px; color:#fff; background-color:#000; border:4px solid #fff; background:#000; padding:0px; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+#simplemodal-container a.modalCloseImg {background:url(/sites/dev-elvis.mos.org/files/images/main/home/modal_x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+.modal-description {text-align: left; font-family: arial; position: absolute; bottom: 0; background: rgba(0, 0, 0, 0.7); overflow: auto; clear: both; padding: 30px 30px 20px 30px; line-height: 20px; font-size: 16px; }
+.modal-mos-logo {position: absolute; margin: 20px; z-index: 3; width: 55%; max-width: 300px;}
+.modal-description p {color: #fff; opacity: 1; z-index: 1; padding-bottom: 0;}
+.modal-description .field-label {display: none;}
+.modal-cta a{min-width: 100px; text-align: center; border: 0; font-size: 16px; opacity: 1; background-color: #ff0000; padding: 5px 10px; color: #fff; text-decoration: none; float: right; z-index: 1; overflow: auto; clear: both;}
+.modal-cta a:hover{background-color: #007dfd; color: #FFFFFF;}
+#inline_content {height: 465px; width: 500px; position: relative !important; background:#000; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+#modal-h1 {width: 90%; position: absolute; z-index: 5; font-size: 42px; line-height: 40px; color: #fff; margin: 100px 5% 0px 5%; text-align: center; text-shadow: 1px 1px 9px rgba(20, 20, 20, 1);}
+#modal-h1 .field-label{display: none;}
+#modal-photo-credit{color: #cacaca; position: absolute; bottom: 0; padding-bottom: 20px; font-size: 9px;}
+#modal-background{position: relative; margin: 0;}

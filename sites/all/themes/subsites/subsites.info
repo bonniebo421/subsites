@@ -1,0 +1,19 @@
+name        = MOS Subsites
+description = MOS Subsites Theme for Museum of Science branded subsites
+core        = 7.x
+engine      = phptemplate
+
+regions[header]  = Header
+regions[content] = Content
+regions[footer]  = Footer
+
+features[] = favicon
+
+stylesheets[all][] = css/global.css
+stylesheets[all][] = js/vendor/datepicker/bootstrap-datepicker.css.
+
+scripts[] = js/vendor/jquery-1.10.2.min.js
+scripts[] = js/global.js
+scripts[] = js/vendor/bxslider/jquery.fitvids.js
+scripts[] = js/vendor/bxslider/jquery.bxslider.js
+scripts[] = js/vendor/datepicker/bootstrap-datepicker.js

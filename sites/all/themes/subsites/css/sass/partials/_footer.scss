@@ -1,0 +1,249 @@
+/*********** FOOTER COPYRIGHT ***********/
+
+#copyright{
+	background-color: $gray;
+	width: 96%;
+	margin: 20px 0 0 0;
+	padding: 20px 2%;
+	p{
+		text-align: center;
+	}
+}
+
+/*********** FOOTER ELEMENTS ***********/
+
+footer{
+	width: 96%;
+	margin: 40px auto 0 auto;
+	padding: 0 2%;
+	clear: both;
+	overflow: hidden;
+
+	/* mobile footer */
+	&#mobile{
+		display: none;
+	}
+
+	/* footer columns */
+	div{
+		min-height: 350px;
+		width: 18%;
+		padding: 3%;
+		float: left;
+		border-right: 2px solid $gray;
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			/* social media icons */
+			&#social-media{
+				img{
+					width: 14%;
+					margin: 0 2% 0 0;
+					float: left;
+				}
+			}
+		}
+		p.title{
+			font-weight: bold;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+		}
+		img{
+			width: 90%;
+			display: block;
+			margin: 5px 5%;
+			position: relative;
+			&#charity-navigator{
+				margin: 40px 0 0 0;
+			}
+		}
+
+		/* footer navigation */
+		&#secondary-nav{
+			ul{
+				margin: 0px 0 25px 0;
+			}
+			li{
+				line-height: 28px;
+			}
+		}
+
+		/* footer premier partners */
+		&#premier-partners{
+			a.border-cta{
+				text-align: center;
+			}
+			ul{
+				margin: 0px 0 40px 0;
+				text-align: center;
+				a{
+					text-align: center;
+				}
+			}
+		}
+
+		/* footer contact */
+		&#contact-info{
+			border: 0px;
+			.title{
+				font-size: 18px;
+				line-height: 22px;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+			div.contact{
+				padding: 20px 0;
+				display: block;
+				float: none;
+				width: 100%;
+				border: 0px;
+				min-height: 0px;
+			}
+			address, p, a{
+				line-height: 22px;
+				margin: 0;
+				padding: 0;
+			}
+		}
+
+	} /* end div */
+} /* end footer */
+
+
+
+
+
+/************* MOBILE STYLES *************/
+
+@media only screen and (max-width: 550px){
+
+	/* footer copyright */
+	#copyright{
+		width: 70%;
+		margin: 0;
+		padding: 10px 15% 30px 15%;
+		background: $white;
+		p {
+			font-size: 13px;
+			line-height: 17px;
+		}
+	}
+
+	/* modified desktop footer */
+	footer{
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+
+		/* footer column */
+		div{
+			min-height: 0px;
+			width: 100%;
+			padding: 0;
+			float: none;
+			border-right: 0px;
+			p{
+				width: 90%;
+				padding: 0px 5%;
+				margin: 0;
+				&.title{
+					text-align: center;
+				}
+			}
+
+			/* footer navigation */
+			&#secondary-nav{
+				width: 90%;
+				margin: 20px 5%;
+				.title{
+					display: none;
+				}
+				ul{
+					clear: both;
+					overflow: hidden;
+					width: 100%;
+					margin: 0 auto 20px auto;
+					text-align: left;
+					li{
+						width: 42%;
+						padding: 3px 4%;
+						float: left;
+					}
+					&#social-media{
+						display: none;
+					}
+				}
+			}
+
+			/* footer premier partners */
+			&#premier-partners{
+				width: 90%;
+				padding: 0px 5%;
+				.title{
+					display: none;
+				}
+				ul{
+					clear: both;
+					overflow: hidden;
+					li{
+						float: left;
+						width: 50%;
+						margin: 0 auto;
+					}
+				}
+			}
+
+			/* footer mission & contact */
+			&#mission, &#contact-info{
+				display: none;
+			}
+		}/* end modified desktop footer */
+
+		/* mobile footer */
+		&#mobile{
+			display: block;
+
+			/* footer section */
+			div{
+				padding: 40px 0 30px 0;
+				clear: both;
+				overflow: hidden;
+				div{
+					padding: 10px 0 10px 15%;
+					p{
+						line-height: 22px;
+						&.title{
+							text-align: left;
+							margin: 0 0 4px 0;
+							padding: 0;
+							a{
+								color: $black;
+								&:hover{
+									color: $secondaryColor;
+								}
+							}
+						}
+					}
+					img{
+						width: 32px;
+						float: left;
+						margin: 5px 5% 10px 5%;
+					}
+				}
+
+				/* social media icons */
+				&#social-icons{
+					width: 70%;
+					padding: 40px 15% 10px 15%;
+					img{
+						width: 21%;
+						float: left;
+						padding: 0 2%;
+						margin: 0;
+					}
+				}
+			} /* end footer section */
+		}/* end mobile footer */
+	} /* end footer */
+}
